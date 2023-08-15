@@ -1,0 +1,19 @@
+lass Student:
+   def __init__(self, name, student_id, age, gender): 
+      """ 初始化方法，用於設定學生的姓名、學號、年齡和性別。"""
+      self.name = name
+      self.student_id = student_id
+      self.age = age
+      self.gender = gender
+      
+   def set_grade(self, grade): 
+      """設定學生的成績。'''
+      self.grade = grade
+
+   def get_grade(self): 
+      """獲取學生的成績。"""
+      return self.grade
+
+   def display_student_info(self): 
+      """顯示學生的所有資訊。"""
+      print self.name, self.student_id, self.age, self.gender, self.grade
